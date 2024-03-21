@@ -13,7 +13,7 @@ jobs:
   # build, the name of the job, a server to create and auto configure
   build:
     name: Publish the main branch to our web server
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
     - name: checkout the main branch
       uses: actions/checkout@v4
